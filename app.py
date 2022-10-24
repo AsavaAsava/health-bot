@@ -374,13 +374,13 @@ def index():
             try:
                 tel_send_message(chat_id,get_a_specialist(chat_id,txt))
             except:
-                tel_send_message(chat_id,"Sorry. I dint get that. Try Again.")
+                tel_send_message(chat_id,"Sorry. I didn't get that. Try Again.")
         else:
             try:
                 set_diagnosis(chat_id,txt)
                 tel_send_message(chat_id,reply_diagnosis(get_diagnosis(chat_id))) 
             except:
-                tel_send_message(chat_id,"How are you feeling?") 
+                tel_send_message(chat_id,"Sorry. I'm unable to find a specific diagnosis for your illness. Would you like to see a general physician instead?") 
         return Response('ok', status=200)
     else:
         return "<p>Bot running succesfully<p>"

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ec67440d-8833-4a8a-a9f2-1e12df3dc82e/AppServices/subscriptions/ec67440d-8833-4a8a-a9f2-1e12df3dc82e/resourceGroups/tibu_group/providers/Microsoft.Web/sites/tibuBot",
+    "appService.deploySubpath": "."
+}
